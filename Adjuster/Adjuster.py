@@ -31,7 +31,7 @@ for i in range(qtdE):
             if not(perc<10 or perc>50):
                 break
 
-    valueHour=valueHour+valueHour*perc/100
+    valueHour=valueHour+valueHour*(perc/100)
 
     wage=valueHour*qtdDays
 
